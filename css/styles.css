@@ -5,21 +5,11 @@
     }
 
 .header {
-    width: 1440px;
-    height: 72px;
     background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
-}
+    }
 .nav {
-    display: flex;
-    align-items: center;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;}
+}
 .nav:hover {
     color: #404bbf;
 }
@@ -41,13 +31,7 @@
     color: #2E2F42;
 }
 .nav-list {
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
-    width: 261px;
-    height: 24px;
     list-style-type: none;
     }
 .nav-page {
@@ -68,11 +52,7 @@
     }
 .address {
     list-style-type: none;
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
     text-align: right;
     margin-left: 332px;
     }
@@ -93,8 +73,6 @@
     color: #404bbf;
 }
 .section-title {
-    width: 1440px;
-    height: 600px;
     background-color: #2e2f42;
     }
 .h-one {
@@ -129,20 +107,13 @@ button {
 }
 .section-about {
     background-color: #FFFFFF;
-    width: 1440px;
-    height: 344px;
     }
 .about-list {
     justify-content: flex-start;
-    gap: 40px;
-    width: 1128px;
-    height: 104px;
     list-style-type: none;
     }
 .about-box {
     justify-content: flex-start;
-    width: 264px;
-    height: 104px;
     }
 .title-three {
     font-family: "Roboto", sans-serif;
@@ -161,12 +132,8 @@ letter-spacing: 0.02em;
 color: #434455 ;
 }
 .section-our-team {
-    width: 1440px;
-    height: 732px;
     background-color: #f4f4fd;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
     }
 .title-two {
     font-family: "Roboto", sans-serif;
@@ -181,49 +148,32 @@ color: #434455 ;
     }
 .our-team-list {
     justify-content: flex-start;
-    width: 1128px;
-    height: 104px;
     list-style-type: none;
 }
 .our-team-specialist {
     justify-content: center;
-    width: 264px;
-    height: 380px;
     background: #fff;
     }
 .section-our-portfolio {
     background-color: #FFFFFF;
-    width: 1440px;
-    height: 1240px;
-    }
+        }
 .our-portfolio-list{
-    width: 1128px;
-    height: 1000px;
-}
+justify-content: flex-start;
+ }
 .our-portfolio-list-one {
-   width: 1128px;
-   height: 420px;
    justify-content: flex-start;
    list-style-type: none;
 }
 .our-portfolio-list-two {
-    width: 1128px;
-    height: 420px;
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
     list-style-type: none;
 }
 .footer {
-    width: 1440px;
-    height: 312px;
     background:#2e2f42;
 }
 .footer-box {
-        gap: 16px;
-        width: 264px;
-        height: 112px;
-         }
+    justify-content: flex-start;
+}
 .footer .logo-web {
     font-family: "Raleway", sans-serif;
     font-weight: 700;

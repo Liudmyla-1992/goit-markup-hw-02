@@ -1,6 +1,4 @@
 .body {
-    width: 1440px;
-    height: 312px;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:#FFFFFF;
@@ -42,14 +40,6 @@
 .nav .logo-studio {
     color: #2E2F42;
 }
-.nav .logo-web:hover,
-.nav .logo-studio:hover {
-    color: #404bbf;
-}
-.nav .logo-web:focus,
-.nav .logo-studio:focus {
-    color: #404bbf;
-}
 .nav-list {
     display: flex;
     align-items: flex-start;
@@ -69,6 +59,10 @@
     color: #2e2f42;
     text-decoration: none;
     }
+.nav-page:hover,
+.nav-page:focus {
+   color:#404bbf
+}
 .nav-address {
     font-style: normal;
     }
@@ -207,10 +201,10 @@ color: #434455 ;
     height: 1000px;
 }
 .our-portfolio-list-one {
-width: 1128px;
-height: 420px;
-justify-content: flex-start;
-list-style-type: none;
+   width: 1128px;
+   height: 420px;
+   justify-content: flex-start;
+   list-style-type: none;
 }
 .our-portfolio-list-two {
     width: 1128px;
